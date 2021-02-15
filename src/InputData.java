@@ -7,7 +7,7 @@ public class InputData {
 
     void QueryInputData() {
         Scanner in = new Scanner(System.in);
-        //System.out.println("\nвведите выражение: ");
+        System.out.println("\nвведите выражение: ");
         String expression = in.nextLine().trim();
         CorrectnessCheck obj = new CorrectnessCheck(expression);
         obj.Check();
